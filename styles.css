@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.tv-tokyo.co.jp/plus/lifestyle/images/tenki_20200127_thum.jpg');
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+weather-icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.app-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+h1{ 
+    color: darkcyan;
+}
